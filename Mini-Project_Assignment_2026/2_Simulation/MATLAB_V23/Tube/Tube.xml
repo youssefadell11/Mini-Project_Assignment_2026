@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="MichaelHanyShawkyHab" on="10/28/25||21:57:50" using="Simscape Multibody Link Version 7.4" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="tube.iam" uid="tube.iam_{3DC87E6F-453D-93AB-B80A-A8BCB5A35768}" version="{86C79A2D-0CD1-BB77-3853-390CAE968692}">
+<AssemblyFile name="tube.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="FEEDER_1:1" uid="FEEDER_1:1" entityUid="FEEDER_1.ipt_{F0F2F43B-4663-66D2-4078-81A94AF677F8}">
+<Transform>
+<Rotation>0.9558417055449091 -0.2938820068343676 0 0.2938820068343676 0.9558417055449091 -3.1309442433826449e-16 0 3.2028350441086961e-16 1</Rotation>
+<Translation>5.0358603969770908 2.6978026498188181 -0.59999999999997911</Translation>
+</Transform>
+</Instance>
+<Instance name="Z_AXIS:1" uid="Z_AXIS:1" entityUid="Z_AXIS.ipt_{D0601494-46DA-43DB-8834-D88055B33210}">
+<Transform>
+<Rotation>0.99999999999999978 8.7880472464131782e-15 2.7126767201091735e-14 -8.7880472464127349e-15 0.99999999999999978 -1.7511345054814311e-15 -2.7126767201091747e-14 1.7511345054811926e-15 1</Rotation>
+<Translation>31.899776962576706 -0.41665450593770342 7.992600831877315</Translation>
+</Transform>
+</Instance>
+<Instance name="Y_AXIS:1" uid="Y_AXIS:1" entityUid="Y_AXIS.ipt_{F9B892D6-40A7-B646-25E0-BFBAB9A269A9}">
+<Transform>
+<Rotation>1 -3.5057002340945467e-15 3.3790204010513056e-14 3.5057002340946028e-15 1 -1.6524480144089801e-15 -3.3790204010512949e-14 1.6524480144090986e-15 1</Rotation>
+<Translation>31.89977696257159 -0.4166545059378457 2.060548420973557e-12</Translation>
+</Transform>
+</Instance>
+<Instance name="X_AXIS:1" uid="X_AXIS:1" entityUid="X_AXIS.ipt_{1D8205B5-457F-D32F-76C0-F1A20CF74598}">
+<Transform>
+<Rotation>1 -7.8213401591059794e-16 -1.4233310857772721e-15 7.8213401591060297e-16 1 -1.6524480143992574e-15 1.4233310857772731e-15 1.6524480143993856e-15 1</Rotation>
+<Translation>31.899776962571259 -3.3746916134976749e-13 -3.4788013811619593e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="base_1:1" grounded="true" uid="base_1:1" entityUid="base_1.ipt_{0B7A6E42-4C5C-A20A-0D32-65B9913ADCFC}">
+<Transform>
+<Rotation>1 0 0 0 0.99999999999999989 0 0 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Gear:1" uid="Gear:1" entityUid="Gear.ipt_{CED5F759-4382-75F6-83D2-6D90C5CC903D}">
+<Transform>
+<Rotation>-0.00057136552991617464 -2.3918512886473188e-07 -0.99999983677067372 0.41231734516831064 -0.91104025787896936 -0.00023536604955288202 -0.91104010911418587 -0.41231741234607572 0.00052063561989532255</Rotation>
+<Translation>102.51838859439832 25.121742696494213 -10.152157918370442</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder:1" uid="Holder:1" entityUid="Holder.ipt_{99F5E5A3-408D-5BDE-8899-B68EAF917E3A}">
+<Transform>
+<Rotation>-0.00057136552935103957 -2.3918560173959846e-07 -0.99999983677067417 0.9999485334378414 0.010129365610465775 -0.00057133863918913761 0.010129364093712231 -0.9999486966601201 -5.5483970523350354e-06</Rotation>
+<Translation>102.51838859440346 11.40913520575131 -4.1458231895620425</Translation>
+</Transform>
+</Instance>
+<Instance name="Stand:1" uid="Stand:1" entityUid="Stand.ipt_{B8414B64-46A7-908A-02DF-CB906E891C86}">
+<Transform>
+<Rotation>-0.00057136552991593156 -2.3918512966836185e-07 -0.99999983677067361 0.41345814897817745 -0.91052309324862701 -0.0002360179893299093 -0.9105229445681039 -0.41345821634222579 0.00052034040271567049</Rotation>
+<Translation>102.51838859439786 27.484721737214496 -10.510584334375508</Translation>
+</Transform>
+</Instance>
+<Instance name="Gear_MIR:1" uid="Gear_MIR:1" entityUid="Gear_MIR.ipt_{14733B72-4C24-F206-9A04-F1A1418ADAED}">
+<Transform>
+<Rotation>-0.00057136552984507732 -2.3918528606794201e-07 0.9999998367706735 -0.41231734516815916 0.91104025787903753 -0.00023536604938027914 -0.91104010911425415 -0.41231741234592467 -0.00052063561989536126</Rotation>
+<Translation>102.51838859439972 11.000686771779101 -10.152157918371277</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder_MIR:1" uid="Holder_MIR:1" entityUid="Holder_MIR.ipt_{33921DA0-4BE2-7BF3-3178-98B7AAADF845}">
+<Transform>
+<Rotation>-0.00057136552917857683 -2.3918559999246213e-07 0.99999983677067394 -0.99994853343782164 -0.010129365610270438 -0.00057133863901664278 0.010129364093516896 -0.99994869666010078 5.5483970522235405e-06</Rotation>
+<Translation>102.51838859440265 24.713294262520527 -4.1458231895608346</Translation>
+</Transform>
+</Instance>
+<Instance name="Stand_MIR:1" uid="Stand_MIR:1" entityUid="Stand_MIR.ipt_{1B742F1D-42D4-8332-5BD4-038D7D9F9D9A}">
+<Transform>
+<Rotation>-0.00057136552984464288 -2.3918528680212989e-07 0.99999983677067339 -0.41345814897803107 0.9105230932487054 -0.00023601798915730889 -0.9105229445681825 -0.41345821634207969 -0.00052034040271571505</Rotation>
+<Translation>102.51838859439967 8.637707731058752 -10.510584334376645</Translation>
+</Transform>
+</Instance>
+<Instance name="LID_Product_1:1" uid="LID_Product_1:1" entityUid="LID_Product_1.ipt_{832EE419-42E8-0A4E-FD5F-5DADDE2AB5DB}">
+<Transform>
+<Rotation>-0.96559287669765359 -0.2600584481818351 -9.5123714438823676e-16 -0.2600584481818351 0.96559287669765359 0 8.9564141861106802e-16 3.3227980519815055e-16 -1.0000000000000002</Rotation>
+<Translation>-6.4592695162577316 32.106214734132408 -30.185545826440944</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.90196078431372551" g="0.12156862745098039" b="0.12156862745098039" a="1"/>
+<Diffuse r="0.90196078431372551" g="0.12156862745098039" b="0.12156862745098039" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.52299999237060546</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="base_product_1:1" uid="base_product_1:1" entityUid="base_product_1.ipt_{376FA99C-447C-8CC9-116F-A19FFDC42C8C}">
+<Transform>
+<Rotation>0.70710678118655323 -0.7071067811865418 9.3879996308808811e-16 0.7071067811865418 0.70710678118655323 0 -6.0165740890071441e-16 7.2600623125381713e-16 1</Rotation>
+<Translation>3.4402254203538809 28.005709670743986 -32.185545826440958</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.90196078431372551" g="0.12156862745098039" b="0.12156862745098039" a="1"/>
+<Diffuse r="0.90196078431372551" g="0.12156862745098039" b="0.12156862745098039" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.52299999237060546</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="LID_Product_1:2" uid="LID_Product_1:2" entityUid="LID_Product_1.ipt_{832EE419-42E8-0A4E-FD5F-5DADDE2AB5DB}">
+<Transform>
+<Rotation>-0.9525310744227109 -0.30444137737684546 -9.4592306638779293e-16 -0.30444137737684546 0.9525310744227109 0 8.7425222512609158e-16 3.7173217401354066e-16 -1.0000000000000002</Rotation>
+<Translation>-20.45926951625782 18.106214734132543 -30.18554582644094</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="0.49019607843137253" b="0.6588235294117647" a="1"/>
+<Diffuse r="0" g="0.49019607843137253" b="0.6588235294117647" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.52299999237060546</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="base_product_1:2" uid="base_product_1:2" entityUid="base_product_1.ipt_{376FA99C-447C-8CC9-116F-A19FFDC42C8C}">
+<Transform>
+<Rotation>-0.7784945153532199 0.62765140768180461 1.0563585812440113e-15 -0.62765140768180461 -0.7784945153532199 0 7.6718129434811231e-16 -7.3147633494221296e-16 1</Rotation>
+<Translation>-16.358764452869409 28.00570967074415 -32.185545826440929</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="0.49019607843137253" b="0.6588235294117647" a="1"/>
+<Diffuse r="0" g="0.49019607843137253" b="0.6588235294117647" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.52299999237060546</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>X_AXIS:1</Uid>
+</InstancePath>
+<Position>63.685953521169033 -8.4387852658622293 -13.985545826443053</Position>
+<Axis>-1 0 -1.6732469808955546e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base_1:1</Uid>
+</InstancePath>
+<Position>72.523230483743362 -8.4387852658625206 -13.985545826443053</Position>
+<Axis>-1 -5.6018957312191015e-16 -1.5906557838668288e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>X_AXIS:1</Uid>
+</InstancePath>
+<Position>63.68595352117152 43.561214734138986 -13.985545826442507</Position>
+<Axis>-1 1.08624606043841e-16 -7.2243621040202112e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base_1:1</Uid>
+</InstancePath>
+<Position>72.523230483745039 43.561214734138986 -13.985545826442495</Position>
+<Axis>1 -1.6985694599842577e-16 7.2243621040202053e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Y_AXIS:1</Uid>
+</InstancePath>
+<Position>60.685953521170305 15.477869240073009 -7.985545826441161</Position>
+<Axis>1.1963028622219975e-15 1 8.1776814132882116e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>X_AXIS:1</Uid>
+</InstancePath>
+<Position>60.685953521170298 15.261214734137873 -7.9855458264411716</Position>
+<Axis>1.4660310160016846e-15 -1 -8.177681413289181e-14</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Y_AXIS:1</Uid>
+</InstancePath>
+<Position>60.685953521168997 15.477869240073233 -9.9855458264411521</Position>
+<Axis>1.2188476766297149e-15 1 8.1776814132891797e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>X_AXIS:1</Uid>
+</InstancePath>
+<Position>60.685953521168962 -9.4387852658622222 -9.985545826443186</Position>
+<Axis>-5.6248022170579819e-16 -1 -8.1775295948226511e-14</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Position>58.685953521166738 18.477869240073449 -13.528146658314975</Position>
+<Axis>-6.3952064942829698e-13 8.1530097905196125e-14 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Y_AXIS:1</Uid>
+</InstancePath>
+<Position>58.685953521172067 18.477869240072835 -5.1855458264396388</Position>
+<Axis>-6.3236333344747795e-13 8.162878439627633e-14 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Position>58.685953521161963 16.477869240074135 -20.978146658315168</Position>
+<Axis>6.398545783609703e-13 -8.1554769527966905e-14 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Y_AXIS:1</Uid>
+</InstancePath>
+<Position>58.685953521172067 16.477869240072842 -5.1855458264397871</Position>
+<Axis>-6.4174681680398092e-13 8.1628784396275901e-14 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+<Revolute name="Rotational:1">
+<BaseFrame>
+<InstancePath>
+<Uid>base_1:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.55575776189846937 0.83134427891794882 9.6766202879903072e-16 -0.83134427891794882 -0.55575776189846937 0 4.8030002329223756e-16 -8.4288973964721807e-16 1</Rotation>
+<Translation>-6.4592695162578684 18.106214734132415 -36.485545826440955</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>FEEDER_1:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.29388200683438048 0.95584170554490722 9.5078722150121761e-16 -0.95584170554490722 -0.29388200683438048 0 2.4765541068846258e-16 -9.1856815549198631e-16 1</Rotation>
+<Translation>-6.4592695162578533 18.106214734132418 -35.885545826440961</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:2">
+<BaseFrame>
+<InstancePath>
+<Uid>Holder:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0.99528026910962719 0.097040504236633601 0.00057136552927156007 -0.097040520212503797 0.99528043155526258 2.3918493132090362e-07 -0.00056864571992285798 -5.5683664234816783e-05 0.99999983677067417</Rotation>
+<Translation>3.0013835219220324 15.553321899943134 11.630941401964769</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Stand:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.90816950366245741 0.41860222904198424 0.00057136552927061757 -0.41860229724601888 -0.90816965195953248 2.3918493131587902e-07 0.00051899695720477299 -0.00023895770265951121 0.99999983677067417</Rotation>
+<Translation>3.0013835219220324 15.553321899943128 11.630941401964764</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:3">
+<BaseFrame>
+<InstancePath>
+<Uid>Holder:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.99528026910962719 -0.097040504236633365 0.00057136552927156007 0.097040520212503562 -0.99528043155526258 2.3918493132090362e-07 0.00056864571992285798 5.5683664234816647e-05 0.99999983677067417</Rotation>
+<Translation>2.1217145752385522 13.536844205760456 11.631444496871273</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Gear:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.91104010911422506 0.41231734516822455 0.00057136552927061865 -0.41231741234598956 -0.91104025787900833 2.3918493131581427e-07 0.00052063561922576483 -0.00023536604946663382 0.99999983677067417</Rotation>
+<Translation>2.1217145752385611 13.536844205760456 11.631444496871262</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:4">
+<BaseFrame>
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.253743178275313e-13 4.8147898806853663e-13 1 0.75310989585553589 0.65789473684204514 3.5911160483876841e-15 -0.65789473684204514 0.75310989585553589 -6.4245811544743263e-13</Rotation>
+<Translation>58.385953521158953 17.177869240074433 -25.653146658314874</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Gear:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.66348358685990239 -0.74819061976808454 -0.00057136552927061247 -0.74819074180403922 0.66348369526211004 -2.3918493131646829e-07 0.00037927066862785812 0.00042733170391008417 -0.99999983677067417</Rotation>
+<Translation>3.4002411645776154 10.712619549846494 12.230714764180323</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:5">
+<BaseFrame>
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.253743178275313e-13 4.8147898806853663e-13 1 0.75310989585553589 0.65789473684204514 3.5911160483876841e-15 -0.65789473684204514 0.75310989585553589 -6.4245811544743263e-13</Rotation>
+<Translation>58.385953521157646 18.077869240074595 -27.678146658314802</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Stand:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0.90816950366245774 0.41860222904198358 -0.00057136552927061768 0.41860229724601822 -0.90816965195953281 -2.3918493131175148e-07 -0.00051899695720477148 -0.00023895770265951462 -0.99999983677067417</Rotation>
+<Translation>4.2993932512697546 12.737996122379529 12.230200535148924</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:6">
+<BaseFrame>
+<InstancePath>
+<Uid>Holder_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.99528026910962719 -0.09704050423663331 -0.00057136552927153567 0.097040520212503492 -0.99528043155526258 -2.3918493132077481e-07 -0.0005686457199228337 -5.568366423481412e-05 0.99999983677067417</Rotation>
+<Translation>2.1217145752385522 13.536844205760456 -11.631444496871273</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Gear_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.91104010911422528 0.41231734516822455 -0.00057136552927058407 -0.41231741234598968 -0.91104025787900844 -2.3918493128208351e-07 -0.00052063561922571951 0.00023536604946665029 0.99999983677067406</Rotation>
+<Translation>2.1217145752385611 13.536844205760456 -11.631444496871262</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:7">
+<BaseFrame>
+<InstancePath>
+<Uid>Holder_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0.99528026910962719 0.097040504236633546 -0.00057136552927153567 -0.097040520212503728 0.99528043155526258 -2.3918493132077481e-07 0.0005686457199228337 5.5683664234814255e-05 0.99999983677067417</Rotation>
+<Translation>3.0013835219220324 15.553321899943134 -11.630941401964769</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Stand_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.90816950366245741 0.4186022290419843 -0.00057136552927058363 -0.41860229724601888 -0.90816965195953259 -2.3918493126275978e-07 -0.00051899695720471987 0.00023895770265954533 0.99999983677067406</Rotation>
+<Translation>3.0013835219220324 15.553321899943128 -11.630941401964764</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:8">
+<BaseFrame>
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.1996530776119617e-13 -4.8620414076371608e-13 1 -0.75310989585543087 0.65789473684216537 3.5911160483876841e-15 -0.65789473684216537 -0.75310989585543087 -6.4245811544743263e-13</Rotation>
+<Translation>58.385953521158939 19.777869240074434 -25.653146658314668</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Gear_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.66348358685990227 0.74819061976808454 -0.00057136552927057778 -0.74819074180403911 -0.66348369526210993 -2.3918493128271746e-07 -0.00037927066862780982 0.00042733170391008076 0.99999983677067406</Rotation>
+<Translation>3.4002411645776154 10.712619549846494 -12.230714764180323</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="Rotational:9">
+<BaseFrame>
+<InstancePath>
+<Uid>Z_AXIS:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.1996530776119617e-13 -4.8620414076371608e-13 1 -0.75310989585543087 0.65789473684216537 3.5911160483876841e-15 -0.65789473684216537 -0.75310989585543087 -6.4245811544743263e-13</Rotation>
+<Translation>58.385953521157646 18.877869240074595 -27.678146658314738</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Stand_MIR:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.90816950366245763 0.41860222904198385 -0.00057136552927058385 -0.41860229724601844 -0.90816965195953281 -2.3918493125860752e-07 -0.00051899695720471846 0.00023895770265954894 0.99999983677067406</Rotation>
+<Translation>4.2993932512697546 12.737996122379529 -12.230200535148924</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base_1.ipt" uid="base_1.ipt_{0B7A6E42-4C5C-A20A-0D32-65B9913ADCFC}" version="{705848D5-A253-7FCC-B07F-CCA878BD2F2B}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="base_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>6.4831550991515732</Mass>
+<CenterOfMass>34.21285490438413 18.860888024112658 -38.224149165097707</CenterOfMass>
+<Inertia>2535.6899024304803 8615.5320020204817 10242.038119263803 70.289983493627986 -536.68370422429314 113.52450128589663</Inertia>
+</MassProperties>
+<GeometryFile name="base_1_ipt_98c38c8f.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base_product_1.ipt" uid="base_product_1.ipt_{376FA99C-447C-8CC9-116F-A19FFDC42C8C}" version="{CD29DC80-E121-7498-FAB0-458B4738E662}">
+<PartFile name="base_product_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.027740579162105074</Mass>
+<CenterOfMass>-1.696711940553762e-10 0 1.147657479123964</CenterOfMass>
+<Inertia>0.040185128800290168 0.040185134916396158 0.051111968653146218 0 -6.1426609449665756e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_product_1_ipt_f9f28c9f.STEP" type="STEP"/>
+</Part>
+<Part name="FEEDER_1.ipt" uid="FEEDER_1.ipt_{F0F2F43B-4663-66D2-4078-81A94AF677F8}" version="{22C7BD3D-A6DC-B2B7-53E1-96B9930F1B5F}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="FEEDER_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.33687331534480247</Mass>
+<CenterOfMass>-6.459270005052554 18.106215259966419 -31.346420761433816</CenterOfMass>
+<Inertia>24.433592906307311 24.433592894454545 48.826544248796914 6.0071673942729831e-08 -5.5838696425780656e-08 8.0999197962228207e-08</Inertia>
+</MassProperties>
+<GeometryFile name="FEEDER_1_ipt_81fb8e9d.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gear.ipt" uid="Gear.ipt_{CED5F759-4382-75F6-83D2-6D90C5CC903D}" version="{050AE29C-728C-A0C4-54F4-E5975E512D25}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Gear.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0020865416531419901</Mass>
+<CenterOfMass>3.1319352587232796 11.29861432225735 12.227925981388809</CenterOfMass>
+<Inertia>0.0027238208202144277 0.0012054121697268555 0.0034214026493798997 0.00026313430117676261 -0.00011792738963461602 0.00086933730761397496</Inertia>
+</MassProperties>
+<GeometryFile name="Gear_ipt_e327140f.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gear_MIR.ipt" uid="Gear_MIR.ipt_{14733B72-4C24-F206-9A04-F1A1418ADAED}" version="{6C674EC1-4E08-726D-EE06-ACE04AA72591}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Gear_MIR.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0020865416531419853</Mass>
+<CenterOfMass>3.1319352587232867 11.298614322257352 -12.227925981388813</CenterOfMass>
+<Inertia>0.0027238208202142004 0.0012054121697337337 0.0034214026493870051 -0.00026313430117681948 0.0001179273896345876 0.00086933730761400336</Inertia>
+</MassProperties>
+<GeometryFile name="Gear_MIR_ipt_9c057dc7.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Holder.ipt" uid="Holder.ipt_{99F5E5A3-408D-5BDE-8899-B68EAF917E3A}" version="{EBE97A66-953C-FDA8-C749-289EE7E838CF}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Holder.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0026725365599224093</Mass>
+<CenterOfMass>2.7430848278028011 15.620181487387436 11.93108901793593</CenterOfMass>
+<Inertia>0.0070680622513393703 0.00062561103865846237 0.0075333207918127981 8.5181291370872717e-07 2.6618871673633747e-07 -0.0014879451262802519</Inertia>
+</MassProperties>
+<GeometryFile name="Holder_ipt_575a6bf1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Holder_MIR.ipt" uid="Holder_MIR.ipt_{33921DA0-4BE2-7BF3-3178-98B7AAADF845}" version="{DD4C9E27-74A9-FAD6-E7AD-2B619014D06E}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Holder_MIR.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0026725365599224097</Mass>
+<CenterOfMass>2.7430848278028019 15.620181487387441 -11.931089017935934</CenterOfMass>
+<Inertia>0.007068062251339143 0.00062561103865829183 0.0075333207918126845 -8.5181291382241402e-07 -2.6618871677897007e-07 -0.0014879451262801951</Inertia>
+</MassProperties>
+<GeometryFile name="Holder_MIR_ipt_4e47ee7f.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LID_Product_1.ipt" uid="LID_Product_1.ipt_{832EE419-42E8-0A4E-FD5F-5DADDE2AB5DB}" version="{E270FFE1-B837-6413-D9E3-B7B43E14935D}">
+<PartFile name="LID_Product_1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.022524903295333343</Mass>
+<CenterOfMass>-2.0486336240095418e-10 0 0.95029626260422295</CenterOfMass>
+<Inertia>0.032128102246246015 0.032128108336486466 0.049418990158558274 0 2.1782715082779705e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="LID_Product_1_ipt_3d0ec5a8.STEP" type="STEP"/>
+</Part>
+<Part name="Stand.ipt" uid="Stand.ipt_{B8414B64-46A7-908A-02DF-CB906E891C86}" version="{B6D99160-A312-D758-06FC-216F47CBB3FD}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Stand.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00070915496537179545</Mass>
+<CenterOfMass>3.6503883865958922 14.145659011161323 11.930570968556838</CenterOfMass>
+<Inertia>0.0008603769052303676 0.00030841995850215654 0.00087095177154824913 -1.8444309478127251e-07 5.9648502741538321e-09 0.00032304646350394249</Inertia>
+</MassProperties>
+<GeometryFile name="Stand_ipt_5e00ca89.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stand_MIR.ipt" uid="Stand_MIR.ipt_{1B742F1D-42D4-8332-5BD4-038D7D9F9D9A}" version="{6D6CB1DF-45DC-FD59-FEDF-882A3DE50B34}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Stand_MIR.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.00070915496537179437</Mass>
+<CenterOfMass>3.6503883865958939 14.14565901116133 -11.930570968556843</CenterOfMass>
+<Inertia>0.00086037690523025386 0.00030841995850211388 0.00087095177154822073 1.844430947528508e-07 -5.9648502883646867e-09 0.00032304646350395669</Inertia>
+</MassProperties>
+<GeometryFile name="Stand_MIR_ipt_bad55de2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="X_AXIS.ipt" uid="X_AXIS.ipt_{1D8205B5-457F-D32F-76C0-F1A20CF74598}" version="{2CC69759-DF3C-2F3E-58B7-A7230A0A7008}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="X_AXIS.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.28241639021762849</Mass>
+<CenterOfMass>60.685875676989077 18.385820001687939 -10.838819452811819</CenterOfMass>
+<Inertia>172.00766726684913 3.9346488781352527 169.25444784167829 -0.65092345487800052 2.8612405934836716e-05 -0.00011909050267422572</Inertia>
+</MassProperties>
+<GeometryFile name="X_AXIS_ipt_5f072c36.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Y_AXIS.ipt" uid="Y_AXIS.ipt_{F9B892D6-40A7-B646-25E0-BFBAB9A269A9}" version="{AED3C0AC-197B-4CC1-453A-44DEFB976ED7}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Y_AXIS.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.16031792202525952</Mass>
+<CenterOfMass>59.682720178435801 18.477869240071612 -8.1916793796261675</CenterOfMass>
+<Inertia>1.0313252827434334 0.86931794030137821 0.86985141556523737 -7.2759576141834261e-14 0.00098649794091761576 -3.2188836485147479e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Y_AXIS_ipt_f7973972.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Z_AXIS.ipt" uid="Z_AXIS.ipt_{D0601494-46DA-43DB-8834-D88055B33210}" version="{5A17E9B9-62FF-CF43-8BF3-195924613F52}">
+<ModelUnits mass="lbmass" length="inch"/>
+<PartFile name="Z_AXIS.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.18478007894920054</Mass>
+<CenterOfMass>58.687770522784298 18.485121334764379 -2.7547062270256535</CenterOfMass>
+<Inertia>23.539776361070558 23.353923372591613 0.57415133045706901 -0.0094396755747256974 -0.001038802276198112 0.0001737578712636605</Inertia>
+</MassProperties>
+<GeometryFile name="Z_AXIS_ipt_52e6de26.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
